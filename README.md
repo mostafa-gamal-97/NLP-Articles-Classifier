@@ -119,3 +119,4 @@ LSTM Training and Validation Accuracies:
 
 - [MachineLearningMastery for Sequence Classification article](https://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/)
 
+- [Understanding NLP Keras Tokenizer Class](https://medium.com/analytics-vidhya/understanding-nlp-keras-tokenizer-class-arguments-with-example-551c100f0cbd)
