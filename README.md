@@ -22,7 +22,6 @@ I've got highly motivated to start doing a Natural Language processing project a
 ├── data collecting
 
     ├── articles_scraper.ipynb 
-    ├── articles_scraper.html
     ├── economy_2.csv
     ├── sports_2.csv
     ├── arts_2.csv
@@ -31,14 +30,12 @@ I've got highly motivated to start doing a Natural Language processing project a
 ├── data cleaning
 
     ├── data_cleaning.ipynb 
-    ├── data_cleaning.html
     ├── clean_df.csv
 
 
 ├── data preprocessing
 
     ├── text_preprocessing.ipynb 
-    ├── text_preprocessing.html
     ├── final_df_1.csv
     ├── final_df_2.csv
 
@@ -46,9 +43,7 @@ I've got highly motivated to start doing a Natural Language processing project a
 ├── model building and evaluation
 
     ├── ml_models.ipynb 
-    ├── ml_models.html
     ├── LSTM_model.ipynb
-    ├── LSTM_model.html
 
 
 └── README.md 
