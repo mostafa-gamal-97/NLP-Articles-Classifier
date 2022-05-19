@@ -8,7 +8,7 @@ An END to End NLP pipeline for articles titles classification
 * [Technologies Used](#technologies-used)
 * [Project Pipeline](#project-pipeline)
 * [Results](#results)
-* [Acknowledgements](#acknowledgements)
+* [Resources](#resources)
 
 
 ## Motivation
