@@ -112,3 +112,15 @@ LSTM Training and Validation Losses:
 LSTM Training and Validation Accuracies:
 
 ![alt text](Images/training_accuracies.png)
+
+
+## Resources
+
+- a special thank goes to AhmedSamy96's repo on github, I've used some of his codes but built my own models and used my tweaks.
+
+     [AhmedSamy's  Repo](https://github.com/Ahmedsamy96/Article-classifiers-NLP)
+
+- [Analytics-vidhya medium post](https://medium.com/analytics-vidhya/nlp-tutorial-for-text-classification-in-python-8f19cd17b49e#:~:text=Text%20classification%20is%20one%20of,in%20a%20cost%2Deffective%20manner.)
+
+- [MachineLearningMastery for Sequence Classification article](https://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/)
+
