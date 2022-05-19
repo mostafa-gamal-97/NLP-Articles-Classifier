@@ -111,9 +111,7 @@ LSTM Training and Validation Accuracies:
 
 ## Resources
 
-- a special thank goes to AhmedSamy96's repo on github, I've used some of his codes but built my own models and used my tweaks.
-
-     [AhmedSamy's  Repo](https://github.com/Ahmedsamy96/Article-classifiers-NLP)
+- a special thank goes to AhmedSamy96's blog for NLP Pipeline on github.
 
 - [Analytics-vidhya medium post](https://medium.com/analytics-vidhya/nlp-tutorial-for-text-classification-in-python-8f19cd17b49e#:~:text=Text%20classification%20is%20one%20of,in%20a%20cost%2Deffective%20manner.)
 
