@@ -57,7 +57,7 @@ I've got highly motivated to start doing a Natural Language processing project a
 ## Technologies Used
 
 * Jupyter Notebook (Python3)
-* Web Scraping (BeautifulSoup)
+* Web Scraping (BeautifulSoup, requests)
 * Text Preprocessing (NLTK)
 * Text Classification (LSTM, Naive Bayes, Logistic Regression)
 * Numpy
@@ -67,3 +67,48 @@ I've got highly motivated to start doing a Natural Language processing project a
 
 ## Project Pipeline
 
+1. Data Collecting/Scraping:
+    
+    I've decided to build my own dataset for once. So, I put up a python code to scrape data from an egyptian newpapers [english ahram online](https://english.ahram.org.eg). I scraped different articles titles of different categories (Arts, Economy, Sports) which summed up to 30,000 records in total.
+    
+2. Data Cleaning: 
+    
+    A very simple cleaning is done before entering the preprocessing stage.
+    We have one mega csv file containing our 30,000 records.At first, remove the useless spaces (leading and trailing).
+    Secondly, remove any duplicate records if exists.
+    
+3. Text Preprocessing: This step has a lot of important processes to implement such as
+    
+    * Remove punctuation symbols (!"#$%&'()*+, -./:;<=>?@[\]^_`{|}~ )
+    
+    * Lower all the words to have a uniform representation
+    
+    * Tokenize all the sentences (convert every sentence to a list of words)
+
+    * Remove stopwords from tokenized text
+
+    * Apply stemming process on text
+
+    * Apply Lemmatization on text
+
+    * Save preprocessed text into a final csv.
+
+4.  Model Building and Evaluation:
+    
+    I started by using simple machine learning classifiers (Naive Bayes, Logistic Regression)
+    and got a pretty got results. Also, implemented a LSTM model to see what is the possible extreme in terms 
+    of classification accuracy.
+
+## Results
+
+Confusion Matrix of Machine Learning Models:
+
+![alt text](Images/cm_for_ml_models.png)
+
+LSTM Training and Validation Losses:
+
+![alt text](Images/training_losses.png)
+
+LSTM Training and Validation Accuracies:
+
+![alt text](Images/training_accuracies.png)
